@@ -19,4 +19,24 @@ public class ProfilePage extends BasePage {
         Assert.assertTrue(userName.getText().contains(text));
         return this;
     }
+
+    @FindBy(id = "searchBox")
+    WebElement searchBox;
+
+    @FindBy(css = ".mr-2 a")
+    WebElement nameOfBook;
+
+
+
+
+    public ProfilePage typeKeyInSearchInput(String text) {
+        type(searchBox, text);
+        return this;
+    }
+
+    public ProfilePage verifyNameOfBook(String text) {
+        Assert.assertTrue(shouldAHaveText(nameOfBook, text, 5));
+        return this;
+    }
+
 }
