@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b834337d-bdf6-4693-a9e8-e62fcf28241f" name="Changes" comment="add new&#10;Search Page">
+    <list default="true" id="b834337d-bdf6-4693-a9e8-e62fcf28241f" name="Changes" comment="add new&#10;Search Page&#10;Alerts Page&#10;Frame Page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/alertsFrameWindows/FramePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/alertsFrameWindows/FramePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/SidePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/SidePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/AlertsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/AlertsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/IframeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/IframeTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +51,8 @@
     "TestNG.AlertsTests.alertWithSelectTest.executor": "Run",
     "TestNG.AlertsTests.sentMessageToAlertTest.executor": "Run",
     "TestNG.IframeTests.iframeTest.executor": "Run",
+    "TestNG.IframeTests.iframeTest2.executor": "Run",
+    "TestNG.IframeTests.nestedIframesTest.executor": "Run",
     "TestNG.LoginTests.LoginPositiveTest.executor": "Run",
     "TestNG.SearchBookTests.searchBookPositiveTest.executor": "Run",
     "git-widget-placeholder": "master",
@@ -56,43 +61,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.IframeTests.iframeTest">
-    <configuration name="AlertsTests.alertWaitTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA46_DemoQA_Maven_New" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demoqa.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.demoqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.AlertsTests" />
-      <option name="METHOD_NAME" value="alertWaitTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertsTests.alertWithSelectTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA46_DemoQA_Maven_New" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demoqa.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.demoqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.AlertsTests" />
-      <option name="METHOD_NAME" value="alertWithSelectTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.NewWindowTest.newTabTest">
     <configuration name="AlertsTests.sentMessageToAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA46_DemoQA_Maven_New" />
       <extension name="coverage">
@@ -129,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchBookTests.searchBookPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IframeTests.iframeTest2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA46_DemoQA_Maven_New" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +107,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demoqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.SearchBookTests" />
-      <option name="METHOD_NAME" value="searchBookPositiveTest" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.IframeTests" />
+      <option name="METHOD_NAME" value="iframeTest2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IframeTests.nestedIframesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA46_DemoQA_Maven_New" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demoqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demoqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.IframeTests" />
+      <option name="METHOD_NAME" value="nestedIframesTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewWindowTest.newTabTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA46_DemoQA_Maven_New" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demoqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demoqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.NewWindowTest" />
+      <option name="METHOD_NAME" value="newTabTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.NewWindowTest.newTabTest" />
+        <item itemvalue="TestNG.IframeTests.nestedIframesTest" />
+        <item itemvalue="TestNG.IframeTests.iframeTest2" />
         <item itemvalue="TestNG.IframeTests.iframeTest" />
         <item itemvalue="TestNG.AlertsTests.sentMessageToAlertTest" />
-        <item itemvalue="TestNG.AlertsTests.alertWithSelectTest" />
-        <item itemvalue="TestNG.AlertsTests.alertWaitTest" />
-        <item itemvalue="TestNG.SearchBookTests.searchBookPositiveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -230,13 +235,22 @@
       <option name="project" value="LOCAL" />
       <updated>1747064885117</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add new&#10;Search Page&#10;Alerts Page&#10;Frame Page">
+      <option name="closed" value="true" />
+      <created>1747074065721</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747074065721</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
     <MESSAGE value="add new" />
     <MESSAGE value="add new&#10;Search Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new&#10;Search Page" />
+    <MESSAGE value="add new&#10;Search Page&#10;Alerts Page&#10;Frame Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new&#10;Search Page&#10;Alerts Page&#10;Frame Page" />
   </component>
 </project>

@@ -12,6 +12,7 @@ public class AlertsTests extends TestBase{
     public void precondition(){
         new HomePage(driver).getAlertsFrameWindows();
         new SidePanel(driver).selectAlerts();
+
     }
 
     @Test
