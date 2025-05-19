@@ -1,0 +1,46 @@
+19:10:47.035 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\cohen\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+19:10:54.208 [main] INFO  com.demoqa.tests.TestBase -- Stsrt test: LoginPositiveTest
+19:10:54.274 [main] INFO  com.demoqa.utils.MyListener -- The locator will findBy.cssSelector: .card:nth-child(6)
+19:10:54.276 [main] INFO  com.demoqa.utils.MyListener -- *******************************************
+19:10:54.409 [main] INFO  com.demoqa.utils.MyListener -- The locator foundBy.cssSelector: .card:nth-child(6)
+19:10:54.410 [main] INFO  com.demoqa.utils.MyListener -- ***************************************************
+19:10:54.810 [main] INFO  com.demoqa.utils.MyListener -- The locator will findBy.xpath: //span[.='Login']
+19:10:54.811 [main] INFO  com.demoqa.utils.MyListener -- *******************************************
+19:10:54.933 [main] INFO  com.demoqa.utils.MyListener -- The locator foundBy.xpath: //span[.='Login']
+19:10:54.933 [main] INFO  com.demoqa.utils.MyListener -- ***************************************************
+19:10:55.211 [main] INFO  com.demoqa.utils.MyListener -- The locator will findBy.id: userName
+19:10:55.211 [main] INFO  com.demoqa.utils.MyListener -- *******************************************
+19:10:55.421 [main] INFO  com.demoqa.utils.MyListener -- The locator foundBy.id: userName
+19:10:55.421 [main] INFO  com.demoqa.utils.MyListener -- ***************************************************
+19:10:56.206 [main] INFO  com.demoqa.utils.MyListener -- The locator will findBy.id: userName
+19:10:56.206 [main] INFO  com.demoqa.utils.MyListener -- *******************************************
+19:10:56.268 [main] INFO  com.demoqa.utils.MyListener -- The locator foundBy.id: userName
+19:10:56.269 [main] INFO  com.demoqa.utils.MyListener -- ***************************************************
+19:10:56.336 [main] INFO  com.demoqa.utils.MyListener -- The locator will findBy.id: userName
+19:10:56.337 [main] INFO  com.demoqa.utils.MyListener -- *******************************************
+19:10:56.394 [main] INFO  com.demoqa.utils.MyListener -- The locator foundBy.id: userName
+19:10:56.395 [main] INFO  com.demoqa.utils.MyListener -- ***************************************************
+19:10:56.558 [main] INFO  com.demoqa.utils.MyListener -- The locator will findBy.id: password
+19:10:56.559 [main] INFO  com.demoqa.utils.MyListener -- *******************************************
+19:10:56.603 [main] INFO  com.demoqa.utils.MyListener -- The locator foundBy.id: password
+19:10:56.604 [main] INFO  com.demoqa.utils.MyListener -- ***************************************************
+19:10:56.777 [main] INFO  com.demoqa.utils.MyListener -- The locator will findBy.id: password
+19:10:56.778 [main] INFO  com.demoqa.utils.MyListener -- *******************************************
+19:10:56.854 [main] INFO  com.demoqa.utils.MyListener -- The locator foundBy.id: password
+19:10:56.854 [main] INFO  com.demoqa.utils.MyListener -- ***************************************************
+19:10:56.934 [main] INFO  com.demoqa.utils.MyListener -- The locator will findBy.id: password
+19:10:56.934 [main] INFO  com.demoqa.utils.MyListener -- *******************************************
+19:10:56.988 [main] INFO  com.demoqa.utils.MyListener -- The locator foundBy.id: password
+19:10:56.991 [main] INFO  com.demoqa.utils.MyListener -- ***************************************************
+19:10:57.119 [main] INFO  com.demoqa.utils.MyListener -- The locator will findBy.id: login
+19:10:57.119 [main] INFO  com.demoqa.utils.MyListener -- *******************************************
+19:10:57.184 [main] INFO  com.demoqa.utils.MyListener -- The locator foundBy.id: login
+19:10:57.184 [main] INFO  com.demoqa.utils.MyListener -- ***************************************************
+19:10:57.377 [main] INFO  com.demoqa.utils.MyListener -- The locator will findBy.id: userName-value
+19:10:57.377 [main] INFO  com.demoqa.utils.MyListener -- *******************************************
+19:10:58.817 [main] INFO  com.demoqa.utils.MyListener -- The locator foundBy.id: userName-value
+19:10:58.817 [main] INFO  com.demoqa.utils.MyListener -- ***************************************************
+19:10:58.897 [main] INFO  com.demoqa.tests.TestBase -- Test result: PASSED LoginPositiveTest
+19:10:58.899 [main] INFO  com.demoqa.tests.TestBase -- ************************************

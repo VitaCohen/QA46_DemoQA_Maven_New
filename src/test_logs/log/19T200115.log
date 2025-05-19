@@ -1,0 +1,32 @@
+20:01:15.761 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\cohen\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:01:22.684 [main] INFO  com.demoqa.tests.TestBase -- Stsrt test: LoginPositiveTest
+20:01:22.719 [main] INFO  com.demoqa.utils.MyListener -- The locator will findBy.cssSelector: .card:nth-child(6)
+20:01:22.719 [main] INFO  com.demoqa.utils.MyListener -- *******************************************
+20:01:22.773 [main] INFO  com.demoqa.utils.MyListener -- The locator foundBy.cssSelector: .card:nth-child(6)
+20:01:22.773 [main] INFO  com.demoqa.utils.MyListener -- ***************************************************
+20:01:22.958 [main] INFO  com.demoqa.utils.MyListener -- The locator will findBy.xpath: //span[.='Login']
+20:01:22.959 [main] INFO  com.demoqa.utils.MyListener -- *******************************************
+20:01:23.043 [main] INFO  com.demoqa.utils.MyListener -- The locator foundBy.xpath: //span[.='Login']
+20:01:23.043 [main] INFO  com.demoqa.utils.MyListener -- ***************************************************
+20:01:23.318 [main] INFO  com.demoqa.utils.MyListener -- The locator will findBy.id: serName
+20:01:23.319 [main] INFO  com.demoqa.utils.MyListener -- *******************************************
+20:01:33.419 [main] INFO  com.demoqa.utils.MyListener -- The test has a problem
+20:01:33.420 [main] INFO  com.demoqa.utils.MyListener -- ******************************************
+20:01:33.420 [main] INFO  com.demoqa.utils.MyListener -- Method-->findElement
+20:01:33.421 [main] INFO  com.demoqa.utils.MyListener -- *******************************************
+20:01:33.424 [main] INFO  com.demoqa.utils.MyListener -- Target Exception-->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#serName"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [281907b6691ad7da9e07000735f6e37a, findElement {using=id, value=serName}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\cohen\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61133}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61133/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 281907b6691ad7da9e07000735f6e37a
+20:01:33.424 [main] INFO  com.demoqa.utils.MyListener -- *********************************************
+20:01:33.424 [main] INFO  com.demoqa.utils.MyListener -- Object target-->ChromeDriver: chrome on windows (281907b6691ad7da9e07000735f6e37a)
+20:01:33.425 [main] INFO  com.demoqa.utils.MyListener -- ***********************************************
+20:01:33.754 [main] ERROR com.demoqa.tests.TestBase -- Test result: FAILED LoginPositiveTest
+20:01:33.754 [main] INFO  com.demoqa.tests.TestBase -- ************************************
