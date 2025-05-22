@@ -4,6 +4,7 @@ import com.demoqa.alertsFrameWindows.AlertsPage;
 import com.demoqa.alertsFrameWindows.BrowserWindows;
 import com.demoqa.alertsFrameWindows.FramePage;
 import com.demoqa.bookStore.LoginPage;
+import com.demoqa.forms.PracticeFormPage;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -54,5 +55,13 @@ WebElement frames;
     public BrowserWindows selectBrowserWindow() {
         clickWithJS(browserWindows, 0, 300);
         return new BrowserWindows(driver);
+    }
+
+    @FindBy(xpath = "//span[.='Practice Form']")
+    WebElement  practiceForm;
+
+    public PracticeFormPage selectPracticeForm() {
+        clickWithJS(practiceForm,0,200);
+        return new PracticeFormPage(driver);
     }
 }

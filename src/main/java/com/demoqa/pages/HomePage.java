@@ -25,4 +25,11 @@ public class HomePage extends BasePage {
         clickWithJS(alertsFrameWindows, 0, 300);
         return new SidePanel(driver);
     }
+    @FindBy(css = ".card:nth-child(2)")
+    WebElement forms;
+
+    public SidePanel getForms() {
+        clickWithJS(forms, 0, 300);
+        return new SidePanel(driver);
+    }
 }

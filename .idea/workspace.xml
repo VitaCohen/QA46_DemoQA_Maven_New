@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b834337d-bdf6-4693-a9e8-e62fcf28241f" name="Changes" comment="add new&#10;Search Page&#10;Alerts Page&#10;Frame Page&#10;Iframe&#10;windows">
+    <list default="true" id="b834337d-bdf6-4693-a9e8-e62fcf28241f" name="Changes" comment="add new&#10;Search Page&#10;Alerts Page&#10;Frame Page&#10;Iframe&#10;windows&#10;AppManager&#10;Listener&#10;Screenshot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/SidePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/SidePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/utils/DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/utils/DataProviders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/PracticFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/PracticeFormTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +55,7 @@
     "TestNG.LoginTests.LoginPositiveTest.executor": "Run",
     "TestNG.LoginTests.executor": "Run",
     "TestNG.NewWindowTest.newTabTest.executor": "Run",
+    "TestNG.PracticeFormTests.createStudentAccount.executor": "Run",
     "TestNG.SearchBookTests.searchBookPositiveTest.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -63,25 +66,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LoginTests.LoginPositiveTest">
-    <configuration name="IframeTests.iframeTest2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA46_DemoQA_Maven_New" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demoqa.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.demoqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.IframeTests" />
-      <option name="METHOD_NAME" value="iframeTest2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.PracticeFormTests.createStudentAccount">
     <configuration name="IframeTests.nestedIframesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA46_DemoQA_Maven_New" />
       <extension name="coverage">
@@ -153,13 +138,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PracticeFormTests.createStudentAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA46_DemoQA_Maven_New" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demoqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demoqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.PracticeFormTests" />
+      <option name="METHOD_NAME" value="createStudentAccount" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PracticeFormTests.createStudentAccount" />
         <item itemvalue="TestNG.LoginTests.LoginPositiveTest" />
         <item itemvalue="TestNG.LoginTests" />
         <item itemvalue="TestNG.NewWindowTest.newTabTest" />
         <item itemvalue="TestNG.IframeTests.nestedIframesTest" />
-        <item itemvalue="TestNG.IframeTests.iframeTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747331867906</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add new&#10;Search Page&#10;Alerts Page&#10;Frame Page&#10;Iframe&#10;windows&#10;AppManager&#10;Listener&#10;Screenshot">
+      <option name="closed" value="true" />
+      <created>1747678436552</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1747678436552</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,6 +272,7 @@
     <MESSAGE value="add new&#10;Search Page" />
     <MESSAGE value="add new&#10;Search Page&#10;Alerts Page&#10;Frame Page" />
     <MESSAGE value="add new&#10;Search Page&#10;Alerts Page&#10;Frame Page&#10;Iframe&#10;windows" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new&#10;Search Page&#10;Alerts Page&#10;Frame Page&#10;Iframe&#10;windows" />
+    <MESSAGE value="add new&#10;Search Page&#10;Alerts Page&#10;Frame Page&#10;Iframe&#10;windows&#10;AppManager&#10;Listener&#10;Screenshot" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new&#10;Search Page&#10;Alerts Page&#10;Frame Page&#10;Iframe&#10;windows&#10;AppManager&#10;Listener&#10;Screenshot" />
   </component>
 </project>
