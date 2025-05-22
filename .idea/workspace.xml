@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b834337d-bdf6-4693-a9e8-e62fcf28241f" name="Changes" comment="add new&#10;Search Page&#10;Alerts Page&#10;Frame Page&#10;Iframe&#10;windows&#10;AppManager&#10;Listener&#10;Screenshot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/SidePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/SidePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/forms/PracticeFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/forms/PracticeFormPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/utils/DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/utils/DataProviders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/PracticFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/PracticeFormTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/PracticeFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/PracticeFormTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/student.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/student.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747678436552</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add new&#10;Search Page&#10;Alerts Page&#10;Frame Page&#10;Iframe&#10;windows&#10;AppManager&#10;Listener&#10;Screenshot">
+      <option name="closed" value="true" />
+      <created>1747932206918</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1747932206918</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

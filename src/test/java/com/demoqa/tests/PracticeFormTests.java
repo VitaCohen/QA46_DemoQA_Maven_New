@@ -3,34 +3,35 @@ package com.demoqa.tests;
 import com.demoqa.forms.PracticeFormPage;
 import com.demoqa.pages.HomePage;
 import com.demoqa.pages.SidePanel;
+import com.demoqa.utils.DataProviders;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class PracticeFormTests extends TestBase{
+public class PracticeFormTests extends TestBase {
 
     @BeforeMethod
-    public void precondition(){
+    public void precondition() {
         new HomePage(driver).getForms();
         new SidePanel(driver).selectPracticeForm()
                 .hideFooter();
     }
 
-    @Test
-    public void createStudentAccount(){
+    @Test(dataProviderClass = DataProviders.class,
+            dataProvider = "addNewStudentFormWithCsv")
+    public void createStudentAccount(String name,
+                                     String surName,
+                                     String email, String phone) {
         new PracticeFormPage(driver)
-                .enterPersonalData("Bob",
-                "Be","bob@mail.com", "1234567890")
+                .enterPersonalData(name, surName, email, phone)
                 .selectGender("Male")
-               .enterDate("18.06.1999")
-               .addSubjects(new String[]{"Math", "Chemistry"})
-               .selectHobbye(new String[]{"Sports", "Reading"})
-//                .uploadFile("C://Tools//2.jpg")
-//                .inputState("NCR")
-//                .inputCity("Delhi")
-//                .submit()
-//                .verifySuccessRegistration("")
-        ;
+                .enterDate("18.06.1999")
+                .addSubjects(new String[]{"Math", "Chemistry"})
+                .selectHobbye(new String[]{"Sports", "Reading"})
+                .uploadFile("C://Tools//2.jpg")
+                .inputState("NCR")
+                .inputCity("Delhi")
+                .submit()
+                .verifySuccessRegistration("Thanks for submitting the form");
 
     }
 
@@ -51,4 +52,6 @@ public class PracticeFormTests extends TestBase{
 //            .verifySuccessRegistration("Thanks for submitting the form");
 
 //}
+
+    //.uploadFile("C://Tools//2.jpg")
 }
